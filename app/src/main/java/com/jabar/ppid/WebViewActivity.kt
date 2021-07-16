@@ -120,7 +120,7 @@ class WebViewActivity : AppCompatActivity(){
 
         objectAnimator.repeatCount = -1
         objectAnimator.repeatMode = ValueAnimator.REVERSE
-        objectAnimator.duration = 750
+        objectAnimator.duration = 500
         loaderImage.startAnimation(objectAnimator)
     }
 
